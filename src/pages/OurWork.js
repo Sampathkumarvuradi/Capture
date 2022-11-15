@@ -41,7 +41,7 @@ const OurWork = () => {
         </Link>
       </Movie>
       <Movie>
-        <motion.h2 variants={fade}>The Racer</motion.h2>
+        <h2 variants={fade}>The Racer</h2>
         <div className='line'></div>
         <Link to='/work/the-racer'>
           <img src={theracer} alt='theracer' />
